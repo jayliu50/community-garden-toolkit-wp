@@ -1,0 +1,30 @@
+@import "compass";
+// @import "font-awesome.css";
+@import "compass/reset";
+@import "modular-scale";
+// @import "breakpoint";
+// @import "susy";
+// @import "toolkit";
+
+@import "grid";
+@import "colors";
+@import "typography";
+
+
+// temporary
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/web-mockup-1.jpg);
+}
+
+main {
+
+}
+
+#cgt-start {
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}

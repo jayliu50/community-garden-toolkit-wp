@@ -1,0 +1,30 @@
+@import "toolkit";
+
+$color-1: #935A27;
+$color-2: #A87136;
+$color-3: #1767AF;
+$color-4: #4D751D;
+$color-5: #71C13D;
+$color-6: #80CEC8;
+
+
+$color-gray: darken(#fff, 15% * 3);
+$color-gray-dark: darken(#fff, 15% * 4);
+$color-gray-light: darken(#fff, 15% * 1.5);
+
+@for $i from 1 through 6 {
+    $color: darken(#fff, 15% * $i);
+
+    .gray-#{$i} {
+        color: $color;
+    }
+
+    .bg-gray-#{$i} {
+        background-color: $color;
+    }
+
+    // todo: learn if this is possible
+    // almost but no cigar http://blog.sass-lang.com/posts/184094-sass-33-is-released
+    // $$color-gray-#{$i}: $color;
+}
+

@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title Start your prototyping
+    script(src='/bower/jquery.js')
+    script(src='/bower/lodash.compat.js')
+    script(src='/bower/angular.js')
+    script(src='/bower/angular-ui-router.js')
+    script(src='/bower/TweenMax.js')
+    script(src='/scripts/app.js')
+    link(rel='stylesheet', href='/styles/app.css')
+
+  body
+    main(ng-app="communityGardenToolkit")
+      cgt-start This is a plane
+      #cgt-main(
+        ng-controller="MainCtrl"
+        ui-view
+          )
