@@ -6,14 +6,33 @@ html(lang="en")
     script(src='/bower/lodash.compat.js')
     script(src='/bower/angular.js')
     script(src='/bower/angular-ui-router.js')
+    script(src='/bower/angular-placeholders.js')
     script(src='/bower/TweenMax.js')
     script(src='/scripts/app.js')
     link(rel='stylesheet', href='/styles/app.css')
 
   body
     main(ng-app="communityGardenToolkit")
-      cgt-start This is a plane
+      //- cgt-start This is a plane
       #cgt-main(
         ng-controller="MainCtrl"
         ui-view
           )
+      nav#cgt-nav
+        ul
+          li
+            a(ui-sref="intro") Introduction
+          li
+            a(ui-sref="vision") Vision
+          li
+            a(ui-sref="organization") Organization
+          li
+            a(ui-sref="land") Land
+          li
+            a(ui-sref="growing") Growing
+          li
+            a(ui-sref="finances") Finances
+          li
+            a(ui-sref="policy") Policy
+          li
+            a(ui-sref="share") Share this! 

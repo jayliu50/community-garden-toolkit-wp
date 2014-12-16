@@ -1,38 +1,72 @@
-// todo: download and take offline
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+// todo: add the fonts needed into the repository
 
 $base: 1em;
 
-%font {
-    font-family: "Open Sans", sans-serif;
+%font-body {
+  font-family: "Fontin", sans-serif;
 }
 
-@mixin headers($base) {
-    @for $i from 0 through 5 {
-        h#{6 - $i} {
-            $size: ms($i + 1, $golden $fourth);
+%font-heading {
+  font-family: "Fontin Sans", sans-serif;
+}
 
-            font-size: #{$size}em;
-            line-height: 1.2;
+#cgt-main {
+  body {
+    @extend %font-body;
+    font-size: $base;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
 
-            a {
-                text-decoration: none;
-            }
-        }
+  p, li {
+    @extend %font-body;
+    line-height: 1.2em;
+  }
+
+  a {
+    color: $green-dark;
+    text-decoration: none;
+    font-weight: 700;
+
+    &:visited {
+      color: $brown-dark;
+      text-decoration: none;
+      font-weight: 700;
     }
+  }
+
+  .summary {
+    font-style: italic;
+    font-size: ms(2);
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  @for $i from 0 through 5 {
+    h#{6 - $i} {
+      @extend %font-heading;
+      font-weight: 700;
+      $size: ms($i + 1, $golden $fourth);
+      font-size: #{$size}em;
+      line-height: 1.2em;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  // demote all headers inside the content
+  .content {
+    @for $i from 0 through 5 {
+      h#{6 - $i} {
+        $size: ms($i + 0, $golden $fourth);
+        font-size: #{$size}em;
+      }
+    }
+  }
 }
-
-@include headers($base);
-
-
-// @include breakpoint($medium) {
-//     @include headers(12px);
-// }
-
-// @include breakpoint($medium $large) {
-//     @include headers(14px);
-// }
-
-// @include breakpoint($large $xlarge) {
-//     @include headers(16px);
-// }

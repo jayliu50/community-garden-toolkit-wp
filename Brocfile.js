@@ -93,7 +93,7 @@ bower = pickFiles(bower, {
 
 var appJs = mergeTrees([scripts, bower]) // todo: merge vendor stuff into appJs if applicable
 
-var appHtml = compileJade(views)
+var appHtml = compileJade(views, {pretty: true})
 
 var images = pickFiles(app, {
   srcDir: 'images',
