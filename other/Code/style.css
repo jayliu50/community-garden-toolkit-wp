@@ -1,0 +1,593 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*font-family: 'Indie Flower', cursive;*/
+
+/*=====================================
+			CSS ALL PAGES
+=======================================*/
+
+
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
+	margin-left:18px;
+}
+
+body {
+			background-image: url('images/background.png');
+			background-size: 100%; 
+			background-repeat: no-repeat;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul {
+	padding: 1em 1em 0 1em;
+	position: absolute;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1em;
+	background: none;
+	color: #FFF;
+	transition: 1s ease-in all;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
+}
+
+
+#cloud  {
+	position: absolute;
+	left: 150px;
+	top: 75px;
+				
+}
+
+#cloud2 {
+	position: absolute;
+	left: 600px;
+	top: 125px;
+}
+
+/*#cloud:hover {
+position: absolute; left:-20px; top:-20px
+}
+
+#cloud2:hover {
+position: absolute; left:280px; top:30px
+}
+*/	
+
+#cloud:hover {
+	
+	width:15%;
+	height:20%;
+	
+	
+	/*-webkit-animation: drift 3s ease-out 1 forwards;
+	-moz-animation: drift 3s ease-out 1 forwards; 
+	-o-animation: drift 3s ease-out 1 forwards; 
+	animation: drift 3s ease-out 1 forwards;*/
+
+}
+
+#cloud2:hover	
+
+{
+	
+	width:15%;
+	height:20%;
+	
+
+}
+
+#weed {
+	position: absolute;
+	left: 200px;
+	top: 575px;
+	
+	-webkit-animation: wobble 2.5s linear infinite;
+	-moz-animation: wobble 2.5s linear infinite; 
+	-o-animation: wobble 2.5s linear infinite; 
+	animation: wobble 2.5s linear infinite;
+}
+
+#weed2 {
+	position: absolute;
+	left: 300px;
+	top: 600px;
+	
+	-webkit-animation: wobble 2s linear infinite;
+	-moz-animation: wobble 2s linear infinite; 
+	-o-animation: wobble 2s linear infinite; 
+	animation: wobble 2s linear infinite;
+}
+
+#weed3 {
+	position: absolute;
+	left: 500px;
+	top: 560px;
+	
+	-webkit-animation: wobble 3s linear infinite;
+	-moz-animation: wobble 3s linear infinite; 
+	-o-animation: wobble 3s linear infinite; 
+	animation: wobble 3s linear infinite;
+}
+
+#weed4 {
+	position: absolute;
+	left: 700px;
+	top: 525px;
+	
+	-webkit-animation: wobble 3.5s linear infinite;
+	-moz-animation: wobble 3.5s linear infinite; 
+	-o-animation: wobble 3.5s linear infinite; 
+	animation: wobble 3.5s linear infinite;
+}
+
+#weed5 {
+	position: absolute;
+	left: 850px;
+	top: 575px;
+	
+	-webkit-animation: wobble 3.5s linear infinite;
+	-moz-animation: wobble 3.5s linear infinite; 
+	-o-animation: wobble 3.5s linear infinite; 
+	animation: wobble 3.5s linear infinite;
+}
+
+/*#cloud, #cloud2{				
+                transition: height 1s ease, width 1s linear;
+                -webkit-transition: height 1s ease, width 1s linear;
+                -moz-transition: height 1s ease, width 1s linear;
+                -o-transition: height 1s ease, width 1s linear;
+				animation: walk 1s infinite 0s linear alternate;
+                -webkit-animation: walk 2s infinite 0s linear alternate;
+				
+				
+}*/
+
+/*=====================================
+			CSS INTRO PAGE
+=======================================*/
+
+#prop {
+	
+	width: 20%;
+	height: 20%;
+	position: relative;
+	left: 0px;
+	top: -50px;
+	
+	/*-webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;*/
+	
+	-webkit-animation: fly-in 10s ease-out 1 forwards; 
+	-moz-animation: fly-in 10s ease-out 1 forwards; 
+	-o-animation: fly-in 10s ease-out 1 forwards; 
+	animation: fly-in 10s ease-out 1 forwards;
+    
+}
+
+#birdy {
+	
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+
+            
+/*=====================================
+			CSS VISION
+=======================================*/
+/*#eat_healthy{
+	position: absolute;
+	left: 200px;
+	top: 350px;	
+}
+
+#eat_healthy:hover{
+	width:250px;
+	height:250px;
+	position: absolute; left:200px; top:200px
+	
+}
+
+#eat_healthy_blurb{
+	position: absolute;
+	left: 200px;
+	top: 350px;
+	display:none;
+	
+}*/
+
+#vision_banner {
+	
+	-webkit-animation: drift 20s linear 1 forwards; 
+	-moz-animation: drift 20s linear 1 forwards; 
+	-o-animation: drift 20s linear 1 forwards; 
+	animation: drift 20s linear 1 forwards;
+	
+}
+
+#people_banner{
+	
+	-webkit-animation: drift 20s linear 1 forwards; 
+	-moz-animation: drift 20s linear 1 forwards; 
+	-o-animation: drift 20s linear 1 forwards; 
+	animation: drift 20s linear 1 forwards;
+	
+}
+
+#land_banner{
+	
+	-webkit-animation: drift 20s linear 1 forwards; 
+	-moz-animation: drift 20s linear 1 forwards; 
+	-o-animation: drift 20s linear 1 forwards; 
+	animation: drift 20s linear 1 forwards;
+	
+}
+
+.boxed {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  
+}
+
+#why {
+  background: #baa46e;
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  margin:18px;
+  padding: .8em;
+  text-align: center;
+  width: 120px;
+}
+
+#who {
+  background: #baa46e;
+  position: absolute;
+  left: 350px;
+  top: 380px;
+  margin:18px;
+  padding: .8em;
+  text-align: center;
+  width: 120px;
+}
+
+#what {
+  background: #baa46e;
+  position: absolute;
+  left: 550px;
+  top: 360px;
+  margin:18px;
+  padding: .8em;
+  text-align: center;
+  width: 140px;
+}
+
+#what2 {
+  background: #baa46e;
+  position: absolute;
+  left: 750px;
+  top: 340px;
+  margin:18px;
+  padding: .8em;
+  text-align: center;
+  width: 140px;
+}
+
+
+#why:hover, #who:hover, #what:hover, #what2:hover {
+	-webkit-animation: spin 5s ease-out 1; 
+	-moz-animation: spin 5s ease-out 1; 
+	-o-animation: spin 5s ease-out 1; 
+	animation: spin 5s ease-out 1;
+}
+
+#why_hidden {
+  background: #baa46e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 150px;
+  margin-left: -350px;
+  margin-top: -200px;
+  padding: .8em;
+  text-align: center;
+  display: none;
+}
+
+/*=====================================
+			CSS PEOPLE
+=======================================*/
+
+#compost:hover{
+	width:200px;
+	height:151px;
+	position: absolute; left:95px; top:240px
+}
+
+#compost{
+	
+	position: absolute;
+	left: 100px;
+	top: 500px;
+	
+	-webkit-animation: wobble 3s linear infinite;
+	-moz-animation: wobble 3s linear infinite; 
+	-o-animation: wobble 3s linear infinite; 
+	animation: wobble 3s linear infinite;
+}
+
+/*#compost_blink{
+	position: absolute;
+	left: 100px;
+	top: 400px;	
+	
+	-webkit-animation-name: switch 1s infinite alterante;
+	-moz-animation-name: switch 1s infinite alterante; 
+	-o-animation-name: switch 1s linfinite alterante; 
+	animation-name: switch 1s infinite alterante;
+	
+	-webkit-animation: wobble 3s linear infinite;
+	-moz-animation: wobble 3s linear infinite; 
+	-o-animation: wobble 3s linear infinite; 
+	animation: wobble 3s linear infinite;
+}*/
+
+
+#fly{
+				position: absolute;
+				left: 85px;
+				top: 480px;
+}
+
+#fly2{
+				position: absolute;
+				left: 90px;
+				top: 490px;
+}
+
+
+#fly3{
+				position: absolute;
+				left: 195px;
+				top: 500px;
+}
+
+#fly4{
+				position: absolute;
+				left: 160px;
+				top: 510px;
+}
+
+#fly{
+	
+	-webkit-animation: circulate 2s linear infinite; 
+	-moz-animation: circulate 2s linear infinite; 
+	-o-animation: circulate 2s linear infinite; 
+	animation: circulate 2s linear infinite;
+	
+}
+
+#fly2{
+	
+	-webkit-animation: circulate 3s linear infinite; 
+	-moz-animation: circulate 3s linear infinite; 
+	-o-animation: circulate 3s linear infinite; 
+	animation: circulate 3s linear infinite;
+	
+}
+
+#fly3{
+	
+	-webkit-animation: circulate 2.5s linear infinite; 
+	-moz-animation: circulate 2.5s linear infinite; 
+	-o-animation: circulate 2.5s linear infinite; 
+	animation: circulate 2.5s linear infinite;
+	
+}
+
+#fly4{
+	
+	-webkit-animation: circulate 3.5s linear infinite; 
+	-moz-animation: circulate 3.5s linear infinite; 
+	-o-animation: circulate 3.5s linear infinite; 
+	animation: circulate 3.5s linear infinite;
+	
+}
+
+#membership{
+	
+	position: absolute;
+	left: 300px;
+	top: 475px;
+	
+	-webkit-animation: wobble 2.5s linear infinite;
+	-moz-animation: wobble 2.5s linear infinite; 
+	-o-animation: wobble 2.5s linear infinite; 
+	animation: wobble 2.5s linear infinite;
+}
+
+#note {
+	position: absolute;
+	left: 380px;
+	top: 500px;
+}
+
+/*#membership_blink{
+	position: absolute;
+	left: 300px;
+	top: 400px;	
+	
+	-webkit-animation: switch 1.5s linear infinite;
+	-moz-animation: switch 1.5s linear infinite; 
+	-o-animation: switch 1.5s linear infinite; 
+	animation: switch 1.5s linear infinite;
+	
+}*/
+
+/*=====================================
+	  			CSS LAND
+=======================================*/
+
+#bird1 {
+	-webkit-animation: fly-in-bird1 10s ease-out 1 forwards; 
+	-moz-animation: fly-in-bird1 10s ease-out 1 forwards; 
+	-o-animation: fly-in-bird1 10s ease-out 1 forwards; 
+	animation: fly-in-bird1 10s ease-out 1 forwards;
+	
+	-webkit-animation-delay:2s;
+}
+
+#bird2 {
+	-webkit-animation: fly-in-bird2 10s ease-out 1 forwards; 
+	-moz-animation: fly-in-bird2 10s ease-out 1 forwards; 
+	-o-animation: fly-in-bird2 10s ease-out 1 forwards; 
+	animation: fly-in-bird2 10s ease-out 1 forwards;
+	
+	-webkit-animation-delay:2s;
+}
+
+/*=====================================
+	  CSS KEYFRAME ANIMATIONS - ALL
+=======================================*/
+
+@-webkit-keyframes circulate {
+	0% {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg);}
+}
+
+@keyframes circulate {
+    from { transform: rotate(0deg) translateX(15px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(15px) rotate(-360deg); }
+}
+
+@-webkit-keyframes rotate {
+	0% {-webkit-transform: rotate(0deg) translateX(50px) rotate(0deg);}
+  100% {-webkit-transform: rotate(180deg) translateX(600px) rotate(-180deg);}
+}
+
+@keyframes rotate {
+    0% {-webkit-transform: rotate(0deg) translateX(50px) rotate(0deg);}
+  100% {-webkit-transform: rotate(180deg) translateX(600px) rotate(-180deg);}
+}
+
+@-webkit-keyframes fly-in {
+	0% {-webkit-transform: translateX(-50px) translateY(0px) scale(1.0) rotate(0deg);}
+	70% {-transform: translateX(50px) translateY(0px) scale(1.5) rotate(5deg);}
+  100% {-webkit-transform: translateX(400px) translateY(300px) scale(4.0) rotate(0deg);}
+}
+
+@keyframes fly-in {
+    0% {-transform: translateX(-50px) translateY(0px) scale(1.0) rotate(0deg);}
+	70% {-transform: translateX(50px) translateY(0px) scale(1.5) rotate(5deg);}
+  100% {-transform: translateX(300px) translateY(200px) scale(3.0) rotate(0deg);}
+}
+
+@-webkit-keyframes fly-in-bird1 {
+	0% {-webkit-transform: translateX(-50px) translateY(0px) scale(1.0) rotate(0deg);}
+	70% {-transform: translateX(50px) translateY(0px) scale(1.5) rotate(5deg);}
+  100% {-webkit-transform: translateX(150px) translateY(200px) scale(3.0) rotate(0deg);}
+}
+
+@-webkit-keyframes fly-in-bird2 {
+	0% {-webkit-transform: translateX(-50px) translateY(0px) scale(1.0) rotate(0deg);}
+	70% {-transform: translateX(-150px) translateY(0px) scale(1.5) rotate(5deg);}
+  100% {-webkit-transform: translateX(-250px) translateY(200px) scale(3.0) rotate(0deg);}
+}
+
+@-webkit-keyframes switch {
+	 0% { opacity:0;}
+	90% { opacity:0;}
+    91% { opacity:1;}
+   100% { opacity:1;}
+}
+
+@keyframes switch {
+     0% { opacity:0;}
+	90% { opacity:0;}
+    91% { opacity:1;}
+   100% { opacity:1;}
+}
+
+			
+@-webkit-keyframes wobble  {
+  0%  { -webkit-transform:  rotate(0deg); }
+  33%  { -webkit-transform:  rotate(10deg); }
+  66%  { -webkit-transform:  rotate(-10deg); }
+  100%  { -webkit-transform:  rotate(0deg); }
+}
+
+@keyframes wobble {
+	0%  { -webkit-transform:  rotate(0deg); }
+  33%  { -webkit-transform:  rotate(10deg); }
+  66%  { -webkit-transform:  rotate(-10deg); }
+  100%  { -webkit-transform:  rotate(0deg); }
+}
+
+
+@-webkit-keyframes drift {
+	from{-webkit-transform: translateX(0px);transform: translateX(0px);}
+	to{-webkit-transform: translateX(800px);transform: translateX(800px);}
+}
+
+@-moz-keyframes drift {
+	from{-moz-transform: translateX(0px);transform: translateX(0px);}
+	to{-moz-transform: translateX(800px);transform: translateX(800px);}
+}
+
+@-o-keyframes drift {
+	from{-o-transform: translateX(0px);transform: translateX(0px);}
+	to{-o-transform: translateX(800px);transform: translateX(800px);}
+}
+
+@-keyframes drift {
+	from{transform: translateX(0px);} 
+	to{transform: translateX(800px);}
+}
+
+@-moz-keyframes spin { 50% { -moz-transform: rotateY(90deg); } }
+@-webkit-keyframes spin { 50% { -webkit-transform: rotateY(90deg); } }
+@keyframes spin { 50% { -webkit-transform: rotateY(90deg); transform:rotateY(90deg); } }
+
+
+
+
+@-webkit-keyframes scale {
+	from{-webkit-transform: translateX(0px);transform: translateX(0px);}
+	to{-webkit-transform: translateX(200px);transform: translateX(200px);}
+}
+
+@-moz-keyframes scale {
+	from{-moz-transform: translateX(0px);transform: translateX(0px);}
+	to{-moz-transform: translateX(200px);transform: translateX(200px);}
+}
+
+@-o-keyframes scale {
+	from{-o-transform: translateX(0px);transform: translateX(0px);}
+	to{-o-transform: translateX(200px);transform: translateX(200px);}
+}
+
+@-webkit-keyframes scale {
+	from { transform: scale(1.0);} 
+	to { transform: scale(2.0);}
+}
+
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
